@@ -17,3 +17,7 @@ LIMIT 5;
 --query for zone
 SELECT *,geom::json FROM zone
 LIMIT 5;
+
+--query for airports
+SELECT *,geom::json FROM airports
+LIMIT 5;
